@@ -1,0 +1,104 @@
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #d00000;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #d00000;
+    border-color: #d00000;
+}
+
+body {
+    background-color: #dbdcdc;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    color: #ff0;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.hero-section {
+    background-image: url('https://www.treasureislands.ae/images/red-bull-product-banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.product-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.price-text {
+    font-weight: bold;
+    color: #c89c9c;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-top: 1rem; /* Add some margin for better spacing */
+}
+.price-amount {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem; /* Slightly larger font for emphasis */
+}
+
+footer .list-unstyled a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer .list-unstyled a:hover {
+    color: #ff0;
+}
+
+footer form .form-control {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+footer form .btn {
+    background-color: #ff0;
+    color: #000;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+footer form .btn:hover {
+    background-color: #ffa500;
+}
